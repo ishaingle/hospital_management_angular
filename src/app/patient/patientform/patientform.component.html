@@ -1,56 +1,40 @@
-<div class="container">
-  	<div class="row">
-    	<div class="col-md-8 mx-md-auto">
-      		<div class="card rounded-0 mt-5 mb-5">
-        		<div class="card-header shadow">
-          		<h1>Appointment Form</h1><br>
-        		</div>
-				<form name="form" method="post" action=""> 
-					<label for="name">Name</label>
-					<br> 
-					<input name="name" id="name">
-					<br>
+<body>
+	<form name="form" method="post" action="">
+	  <h3>Appointment Form</h3>  
+		<label for="name">Name</label>
+		<br> 
+		<input name="name" id="name" placeholder="Name">
+		<br>
 
-					<label for="gender">Gender</label>
-					<br> 
-					<input name="gender" id="gender">
-					<br>
+		<label for="gender">Gender</label>
+		<br> 
+		<input name="gender" id="gender" placeholder="Gender">
+		<br>
 
-					<label for="age">Age</label>
-					<br> 
-					<input name="age" id="age"> 
-					<br>
+		<label for="age">Age</label>
+		<br> 
+		<input name="age" id="age" placeholder="Age"> 
+		<br>
 
-					<label for="phoneno">Phone No</label>
-					<br> 
-					<input name="phoneno" id="phoneno">
-					<br>
+		<label for="phoneno">Phone No</label>
+		<br> 
+		<input name="phoneno" id="phoneno" placeholder="Phone no">
+		<br>
 
-					<label for="address">Address</label>
-					<br> 
-					<input name="address" id="address">
-					<br>
+		<label for="address">Address</label>
+		<br> 
+		<input name="address" id="address" placeholder="Address">
+		<br>
 
-					<label for="email">Email</label>
-					<br> 
-					<input name="email" id="email"> 
-					<br>
-					
-					<label for="appointment">Appointment Type</label>
-					<br> 
-					<textarea rows = "5" cols = "50" name = "appointment"></textarea>
-			        <br>
+		<label for="email">Email</label>
+		<br> 
+		<input name="email" id="email" placeholder="Email"> 
+		<br>
 
-					<script>
-					$(document).ready(function(){
-					  $("form").submit(function(){
-					    alert("Submitted");
-					  });
-					});
-					</script>
-					<input type="submit" value="Submit">				
-				</form>
-			</div>
-		</div>
-	</div>
-</div>
+		<label for="appointment">Appointment Type</label>
+		<br> 
+		<input name="email" id="email" placeholder="Appointment Type">
+		<br>
+		<button type="submit" value="default action"/>				
+	</form>
+</body>

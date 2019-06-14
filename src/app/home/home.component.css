@@ -1,3 +1,14 @@
-.h1 {
-	
+body {
+	background-color:  #0099cc;
+  padding: 270px;
+}
+h1{
+   font-size: 50px;
+   margin-top: -250px;
+}
+button{
+  background-color:   #00b36b;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 200px;
 }
